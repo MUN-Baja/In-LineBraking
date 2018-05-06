@@ -321,7 +321,7 @@ F 3 "" H 7300 1600 50  0001 C CNN
 	1    7300 1650
 	1    0    0    -1  
 $EndComp
-Text GLabel 8100 1650 0    60   Output ~ 0
+Text GLabel 8450 1650 0    60   Output ~ 0
 Vcc
 $Comp
 L C C2
@@ -452,7 +452,7 @@ Wire Wire Line
 	6800 1300 6800 1800
 Connection ~ 6800 1650
 Wire Wire Line
-	7600 1650 8100 1650
+	7600 1650 8450 1650
 Wire Wire Line
 	7800 1850 7800 1650
 Connection ~ 7800 1650
@@ -499,4 +499,17 @@ Wire Wire Line
 	10000 3750 10000 4150
 Wire Wire Line
 	8750 4200 8750 3850
+$Comp
+L GND #PWR?
+U 1 1 5AF1FF8F
+P 7300 2000
+F 0 "#PWR?" H 7300 1750 50  0001 C CNN
+F 1 "GND" H 7300 1850 50  0000 C CNN
+F 2 "" H 7300 2000 50  0001 C CNN
+F 3 "" H 7300 2000 50  0001 C CNN
+	1    7300 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7300 2000 7300 1950
 $EndSCHEMATC
